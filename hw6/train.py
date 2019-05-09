@@ -8,13 +8,10 @@ from itertools import groupby
 import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader
-import re
 import jieba
 from gensim import models
 from gensim.models import word2vec
 from util import read_file, collate_fn, TextDataset, TextNet
-
-#regex = re.compile('^b(\d+)|^B(\d+)')
 
 parser = argparse.ArgumentParser()
 
