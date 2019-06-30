@@ -1,5 +1,15 @@
 # Machine Learning Final Project
 ## News Retrieval – AI CUP 2019 Competition
+
+### Prerequisites
+* python 3.6
+* gensim==3.7.2
+* jieba==0.39
+* numpy==1.16.4
+* pandas==0.24.2
+* scikit-learn==0.21.0
+* tqdm==4.19.9
+
 ### Usage
 ```
 cd src
